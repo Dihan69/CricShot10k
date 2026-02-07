@@ -1,7 +1,6 @@
 ## About
 CricShot10k is a research project aimed at creating a large-scale dataset for classifying different types of cricket shots. It also introduces an automated data-collection method, where full-length match videos are automatically split into individual shot clips. This removes the major bottleneck of manually trimming footage, which is slow and time-consuming. In addition, a modified framework is proposed to further improve shot-classification accuracy.
 
-[THIS RESEARCH HAS BEEN SUBMITTED TO A REPUTED JOURNAL. FULL DETAILS WILL BE SHARED UPON ACCEPTANCE.]
 
 ## Dataset Distribution
 | No | Class Label       | Count |
@@ -33,16 +32,17 @@ https://github.com/user-attachments/assets/0ee5adbc-c2b8-42ef-8dae-3c63718c55b4
 
 ## Dataset Demo
 
-A Google Drive link has been added as a demo, containing 20 randomly selected videos from each class: [Demo Videos on Google Drive](https://drive.google.com/drive/folders/1aRugfvXu1TiiUgbskj5A6Iyv3MHUFSw6?usp=sharing)
+A Google Drive link has been added as a demo, containing 20 randomly selected videos from each class: [Demo Videos on Google Drive](https://drive.google.com/drive/folders/1bQd1shtQCnGI1uwrhSw8AB-esi-Xkz_C?usp=drive_link)
 
 Each of our videos is numbered from 1–536 based on the main match videos they were collected from. The list of match videos can be found here: [Match Videos Spreadsheet](https://docs.google.com/spreadsheets/d/1q8bdNIEX9vDCJiFbykNoNb0VNoeNupNwrM-AZHLBXSg/edit)
 
-
-
-
 ## Dataset Link
-A HuggingFace or Goggle Drive Link would be provided with each shot sorted classwise in different folders after the publication of the paper. 
-For emergency contact, mail: dihan.coc002@gmail.com
+
+The Google Drive link for the full dataset is available at [Full Dataset on Google Drive](https://drive.google.com/drive/folders/13dQHHW8v9gt_jIssQ5PTrJToWGUXvZey?usp=drive_link). Each class is in a separate compressed archive, and you need to download them to view the full dataset. Note that the dataset is intended solely for non-commercial research purposes, and the copyright of the original videos remains with the respective rights holders.
+
+For any emergency contact, mail: mubtasimkamal@iut-dhaka.edu
 
 ## Model Details
-To be revealed later.
+
+Will be updated later.
+

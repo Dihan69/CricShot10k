@@ -45,7 +45,7 @@ A Google Drive link has been added as a demo, containing 5 randomly selected vid
 
 ## Dataset Link
 
-The Google Drive link for the full dataset is available after publication. Each class will be in a separate compressed archive and one needs extract the archives to view the dataset. Note that the dataset is intended solely for non-commercial research purposes, and the copyright of the original videos remains with the respective rights holders.
+The Google Drive link for the full dataset will be available after formal publication. Each class will be in a separate compressed archive and one needs extract the archives to view the dataset. Note that the dataset is intended solely for non-commercial research purposes, and the copyright of the original videos remains with the respective rights holders.
 
 Each of our videos is numbered from 1–536 based on the original match videos they were collected from. The list of match videos can be found here: [Match Videos Spreadsheet](https://docs.google.com/spreadsheets/d/1q8bdNIEX9vDCJiFbykNoNb0VNoeNupNwrM-AZHLBXSg/edit)
 

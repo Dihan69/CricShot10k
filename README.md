@@ -1,5 +1,12 @@
 ## About
-CricShot10k is a research project aimed at creating a large-scale dataset for classifying different types of cricket shots. It also introduces an automated data-collection method, where full-length match videos are automatically split into individual shot clips. This removes the major bottleneck of manually trimming footage, which is slow and time-consuming. In addition, a modified framework is proposed to further improve shot-classification accuracy.
+
+CricShot10k is a large-scale video dataset for cricket shot classification, consisting of **10,086 video clips across 15 shot classes**. It covers **men’s, women’s, and under-19 matches**, including older matches dating back to 1996, making it one of the most diverse cricket shot datasets available.
+
+The dataset was created using a **novel automated data-collection method**, which splits full-length match videos into individual shot clips. This eliminates the **time-consuming manual trimming process** that limits the size of existing datasets.
+
+Along with the dataset, we introduce a **modified cricket shot classification framework, CricShotNet**, which incorporates two new layers: automated batter cropping and semi-transparent segmentation mask overlay. The subsequent layers use EfficientNetV2-S and GRU, achieving a classification accuracy of 89% on CricShot10k, outperforming previous state-of-the-art methods.
+
+CricShot10k is intended for **research purposes** and provides a foundation for developing and benchmarking cricket video analysis models.
 
 
 ## Dataset Distribution
@@ -20,6 +27,7 @@ CricShot10k is a research project aimed at creating a large-scale dataset for cl
 | 13 | Straight Drive    | 419   |
 | 14 | Sweep             | 905   |
 | 15 | Upper Cut         | 281   |
+|    | **TOTAL**         | **10086** |
 
 ## Dataset Examples
 https://github.com/user-attachments/assets/091cf5c6-0d5b-4f4e-a2bd-d1c79634f269

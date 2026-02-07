@@ -32,13 +32,14 @@ https://github.com/user-attachments/assets/0ee5adbc-c2b8-42ef-8dae-3c63718c55b4
 
 ## Dataset Demo
 
-A Google Drive link has been added as a demo, containing 20 randomly selected videos from each class: [Demo Videos on Google Drive](https://drive.google.com/drive/folders/1bQd1shtQCnGI1uwrhSw8AB-esi-Xkz_C?usp=drive_link)
+A Google Drive link has been added as a demo, containing 5 randomly selected videos from each class: [Demo Videos on Google Drive](https://drive.google.com/drive/folders/1bQd1shtQCnGI1uwrhSw8AB-esi-Xkz_C?usp=drive_link)
 
-Each of our videos is numbered from 1–536 based on the main match videos they were collected from. The list of match videos can be found here: [Match Videos Spreadsheet](https://docs.google.com/spreadsheets/d/1q8bdNIEX9vDCJiFbykNoNb0VNoeNupNwrM-AZHLBXSg/edit)
 
 ## Dataset Link
 
 The Google Drive link for the full dataset is available at [Full Dataset on Google Drive](https://drive.google.com/drive/folders/13dQHHW8v9gt_jIssQ5PTrJToWGUXvZey?usp=drive_link). Each class is in a separate compressed archive, and you need to download them to view the full dataset. Note that the dataset is intended solely for non-commercial research purposes, and the copyright of the original videos remains with the respective rights holders.
+
+Each of our videos is numbered from 1–536 based on the original match videos they were collected from. The list of match videos can be found here: [Match Videos Spreadsheet](https://docs.google.com/spreadsheets/d/1q8bdNIEX9vDCJiFbykNoNb0VNoeNupNwrM-AZHLBXSg/edit)
 
 For any emergency contact, mail: mubtasimkamal@iut-dhaka.edu
 

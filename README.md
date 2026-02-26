@@ -1,5 +1,4 @@
 ## About
-https://github.com/user-attachments/assets/bda16c2d-fd2b-4a0a-a96b-f7c77a0e9fe0
 
 CricShot10k is a large-scale video dataset for cricket shot classification, consisting of **10,086 video clips across 15 shot classes**. It covers **men’s, women’s, and under-19 matches**, including older matches dating back to 1996, making it one of the most diverse cricket shot datasets available.
 
@@ -73,8 +72,6 @@ Each of our videos is numbered from 1–536 based on the original match videos t
 For any emergency contact, mail: mubtasimkamal@iut-dhaka.edu
 
 ## Model Details
-
-https://github.com/user-attachments/assets/fb8e320b-f74c-4d81-814b-f62a7f7bd95d
 
 Will be updated later.
 

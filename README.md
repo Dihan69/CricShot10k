@@ -98,7 +98,7 @@ For efficient preprocessing, we use separate models for cropping and segmentatio
 4. Apply semi-transparent coloring:
    - Striker → **blue**
    - Bat → **green**
-5. Pass the processed frames to the **EfficientNet + GRU (128 units)** model for final inference.
+5. Pass the processed frames to the **EfficientNetV2 + GRU (128 units)** model for final inference.
 
 ## Miscellaneous Datasets
 

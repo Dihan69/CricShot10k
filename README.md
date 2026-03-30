@@ -73,10 +73,56 @@ Each of our videos is numbered from 1–536 based on the original match videos t
 
 For any emergency contact, mail: mubtasimkamal@iut-dhaka.edu
 
+## Data Collection Process
+
+![My Image](https://github.com/user-attachments/assets/ce73067a-d072-46db-b07a-4c36b9868d8e)
+
+We have developed a novel pipeline to automatically trim cricket match highlights into one-second shot videos.
+
+This approach uses multiple fine-tuned YOLOv11 object detection models to detect the striker, bowler, and ball in cricket broadcasts, and then applies logical rules based on recurring patterns during shot execution to identify the starting frame. 
+
+By automating this process, the data collection workflow is reduced to an annotation pipeline similar to those used for text or image datasets, making it more efficient and scalable.
+
 ## Model Details
 
 
 ![My Image](https://github.com/user-attachments/assets/db92e93d-acc6-4740-b9b2-44e0b16fb8ce)
 
-Will be updated later.
+All best-performing models used for data collection and different model layers are available at:  [Google Drive](https://drive.google.com/drive/folders/1-nScFpGMzET1SlvQPrFH1XQwG4ChVA8L?usp=sharing)
+
+For efficient preprocessing, we use separate models for cropping and segmentation.  To perform inference, follow the pipeline below:
+
+1. Use the object detection model to crop the region around the **striker and bat**.
+2. Resize the cropped video and uniformly sample **15 frames**.
+3. Apply the segmentation model to segment the striker and bat.
+4. Apply semi-transparent coloring:
+   - Striker → **blue**
+   - Bat → **green**
+5. Pass the processed frames to the **EfficientNet + GRU (128 units)** model for final inference.
+
+## Miscellaneous Datasets
+
+Apart from the shot video dataset, we used four additional image datasets for automated shot splitting and model preprocessing layers:
+
+1. **Player Type Detection**
+   - ~600 images of size 1280 × 720  
+   - Detects eight types of individuals on cricket fields: Striker, Bowler, Non-striker, Fielder, Umpire, Keeper, Batsman, Other  
+   - Used for automated shot splitting during data collection and striker cropping in the model pipeline  
+
+2. **Bat Detection**
+   - ~670 images of size 1280 × 720  
+   - Detects the bat in the striker’s hand  
+   - Used for cropping the bat alongside the striker in the model pipeline  
+
+3. **Ball Detection**
+   - ~1900 images of size 1280 × 720, with ~1400 containing objects and the rest being negative samples  
+   - Detects the ball in different states  
+   - Used for automated shot splitting during data collection  
+
+4. **Striker and Bat Segmentation**
+   - ~650 images of size 224 × 224  
+   - Masks the exact shapes of two objects: the striker’s body and the bat  
+   - Used to semi-transparently color the striker and bat  
+
+The link to these datasets, along with their corresponding YOLO-formatted annotation text files, is available on  [Google Drive](https://drive.google.com/drive/folders/15PndEu4piuzOHA7ZyOWgTKDnyeDn1Xw_?usp=drive_link)
 
